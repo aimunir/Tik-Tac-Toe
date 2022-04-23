@@ -44,4 +44,30 @@ padding: 5%;
 .box{
     border: 1px solid teal;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background:rgb(152, 73, 236);
+}
+
+.info{
+    font-weight: bolder;
+}
+#reset{ 
+    text-shadow: aquamarine;
+    padding: 1% 4%;
+    border-radius: 4px;
+    background-color: rgba(231, 214, 245, 0.267);
+    font-size: large;
+}
+
+#reset:hover{
+    background: royalblue;
+}
+
+.gameinfo{
+    padding: 5%;
 }
