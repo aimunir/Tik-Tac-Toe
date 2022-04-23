@@ -10,11 +10,16 @@ nav{
 text-align: center;
 background-color:rgb(153, 204, 245);
 color: rgb(70, 27, 67);
-height: 70px;
+height: 60px;
 font-size: 2.5rem;
-font-weight: 700;
+font-weight: 800;
 font-family: Poppins;
+padding: 0px 10px;
+display: flex;
+align-items: center;
+
 }
 nav ul{
     text-decoration: none;
 }
+
