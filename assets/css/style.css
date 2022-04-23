@@ -37,6 +37,11 @@ padding: 5%;
     grid-template-rows: repeat(3,10vw);
     grid-template-columns: repeat(3,10vw);
 }
+
+.boxtext{
+font-size: 400%;
+}
+
 .boximg img {
     display: none;
 }
@@ -62,6 +67,7 @@ padding: 5%;
     border-radius: 4px;
     background-color: rgba(231, 214, 245, 0.267);
     font-size: large;
+    font-weight: 700;
 }
 
 #reset:hover{
@@ -69,5 +75,25 @@ padding: 5%;
 }
 
 .gameinfo{
-    padding: 5%;
+    padding: 5%;   
+}
+
+.info{
+    font-size: larger;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
 }
