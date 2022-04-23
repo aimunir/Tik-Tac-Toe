@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Poppins;
     /* background-color: rgb(136, 231, 195); */
 }
 
@@ -23,3 +24,24 @@ nav ul{
     text-decoration: none;
 }
 
+.game-container{
+background-color: cornflowerblue;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5%;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+.boximg img {
+    display: none;
+}
+
+.box{
+    border: 1px solid teal;
+    font-weight: bolder;
+}
