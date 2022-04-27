@@ -42,8 +42,10 @@ padding: 5%;
 font-size: 400%;
 }
 
-.boximg img {
-    display: none;
+.imgbox img {
+    /* display: none; */
+    width: 0;
+    transition: width 2s ease-in-out;
 }
 
 .box{

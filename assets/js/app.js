@@ -1,5 +1,6 @@
 console.log("welcome to tik tac toe");
-let audioTurn=new Audio("tap_sound.mp3");
+let music=new Audio("music.mp3");
+let audioTurn=new Audio("tap.mp3");
 
 let turn="X";
 let gameOver=false;
@@ -38,6 +39,7 @@ if ((boxtext[e[0]].innerText===boxtext[e[1]].innerText) &&(boxtext[e[2]].innerTe
 
 //  Logic
 
+music.play();
 let boxes=document.getElementsByClassName("box");
 Array.from(boxes).forEach( element => {
             let boxtext =element.querySelector('.boxtext');
