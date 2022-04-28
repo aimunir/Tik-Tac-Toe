@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     font-family: Poppins;
-    /* background-color: rgb(136, 231, 195); */
 }
 
 nav{
@@ -104,3 +103,16 @@ font-size: 400%;
 }
 
                  /* customize  utility class */
+
+  @media only screen and (max-width: 800px){
+                    .game-container{
+                            flex-wrap: wrap;
+                    }
+
+                    .gameinfo{
+                        font-size: 1rem;
+                    }
+                }
+
+
+                 
