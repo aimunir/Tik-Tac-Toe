@@ -57,3 +57,17 @@ Array.from(boxes).forEach( element => {
                 }
             })
 })
+
+// add onClick event listener  
+reset.addEventListener('click',()=>{
+    let boxtexts =document.querySelectorAll('.boxtext');
+    Array.from(boxtexts).forEach(element => {
+        element.innerText=""
+    });
+    
+    turn="X";
+    gameOver=false;
+        document.getElementsByClassName("info")[0].innerText= "Turn for " +turn;
+        document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="0px";
+    
+})
