@@ -110,9 +110,22 @@ font-size: 400%;
                     }
 
                     .gameinfo{
-                        font-size: 1rem;
+                        font-size: .7rem;
                     }
-                }
+
+                    .container {
+                        display: grid;
+                        grid-template-rows: repeat(3,20vw);
+                        grid-template-columns: repeat(3,21vw);
+                    }
+
+                    #reset{
+                        font-size: .7rem;
+                        margin-top: 5px;
+                          }     
+        
+                        }
+                
 
 
                  
