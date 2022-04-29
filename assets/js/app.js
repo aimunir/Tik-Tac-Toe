@@ -8,7 +8,7 @@ let gameOver=false;
 //   function to change turn
 const changeTurn= () =>{
 
-        return turn === "X"?"0":"X" ;
+        return turn === "X" ? "0" : "X" ;
 
 }
 
@@ -22,7 +22,7 @@ const changeTurn= () =>{
     [3,4,5],
     [6,7,8],
     [0,3,6],
-    [1,4,7],
+    [1,4,7],    
     [2,5,8],
     [0,4,8],
     [2,4,6],
@@ -53,6 +53,9 @@ Array.from(boxes).forEach( element => {
                      if (!gameOver) {
                          
                          document.getElementsByClassName("info")[0].innerText= "Turn for " +turn;
+                     }
+                     if(gameOver){
+                         turn = null
                      }
                 }
             })
